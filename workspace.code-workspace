@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\gitlabpulldown\\gt-atl-fsf-pt-12-2020-u-c\\10-OOP\\02-Homework\\Assets"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "teamprofile",
+		"liveServer.settings.port": 5501
+	}
+}
