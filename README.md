@@ -3,7 +3,15 @@
 Tori Sanford
 Tori.danielle.clark91@gmail.com
 Link to repo: https://github.com/TSanfordGATech?tab=repositories
+link to video walk through: https://drive.google.com/file/d/1uiOc2sANgZGQnbUkPQKFi9lD-wU_Oqm9/view?usp=sharing
 
+![Screen Shot of final product](./Assets/teampro.png)
+
+## Install
+Node, inquirer, and Jest
+
+## Usage Rights
+Before starting, run NPM Install in the terminal for index.js. Once that is completed, run node index.js in the terminal. Questions will then populate for the user to answer. Answer each one to the best of your ability. Once done, the html me file will populate. The console log will tell the user if there are any errors or if the document successfully generated. To kick off the tests, install the jest first and then npm run test.
 
 ## The assignment
 
@@ -131,49 +139,49 @@ This homework is graded based on the following criteria:
 ### Walkthrough Video: 32%
 
 * A walkthrough video that demonstrates the functionality of the Team Profile Generator and passing tests must be submitted, and a link to the video should be included in your README file.
-(Half, unable to complete the unit testing)
+(Success)
 
 * The walkthrough video must show all four tests passing from the command line.
-(fail)
+(Success)
 
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
+* The walkthrough video must demonstrate how a user would invoke the application from the command line. (Success)
 
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
+* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application. (Success)
 
-* The walkthrough video must demonstrate a generated HTML file that matches the user input.
+* The walkthrough video must demonstrate a generated HTML file that matches the user input. (Success)
 
 
 ### Technical Acceptance Criteria: 40%
 
 * Satisfies all of the preceding acceptance criteria plus the following:
 
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer). (Success)
 
-	* Uses the [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests.
+	* Uses the [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests. (Success)
 
-  * The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
+  * The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes. (Success)
 
 ### Repository Quality: 13%
 
-* Repository has a unique name.
+* Repository has a unique name. (Success)
 
-* Repository follows best practices for file structure and naming conventions.
+* Repository follows best practices for file structure and naming conventions. (Success)
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc. (Success)
 
-* Repository contains multiple descriptive commit messages.
+* Repository contains multiple descriptive commit messages. (Success)
 
-* Repository contains a high-quality readme with description and a link to a walkthrough video.
+* Repository contains a high-quality readme with description and a link to a walkthrough video. (Success)
 
 ## Review
 
 You are required to submit the following for review:
 
-* A walkthrough video that demonstrates the functionality of the application and passing tests.
+* A walkthrough video that demonstrates the functionality of the application and passing tests. (Success)
 
-* A sample HTML file generated using your application.
+* A sample HTML file generated using your application. (Success)
 
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
+* The URL of the GitHub repository, with a unique name and a readme describing the project. (Success)
 
 ---
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
