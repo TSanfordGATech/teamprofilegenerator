@@ -1,13 +1,49 @@
-<div class="card employee-card">
-    <div class="card-header">
-        <h2 class="card-title">{{ name }}</h2>
-        <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>{{ role }}</h3>
+<!-- Create the HTML template form for the eng content to go to. -->
+<div class="row row-primary row-primary-engineer">
+    <div class="col-md-3 col-name-engineer">
+
+        <!-- Name will render here -->
+        <h2>{{ name }}</h2>
     </div>
-    <div class="card-body">
-        <ul class="list-group">
-            <li class="list-group-item">ID: {{ id }}</li>
-            <li class="list-group-item">Email: <a href="mailto:{{ email }}">{{ email }}</a></li>
-            <li class="list-group-item">GitHub: <a href="https://github.com/{{ github }}" target="_blank" rel="noopener noreferrer">{{ github }}</a></li>
-        </ul>
+    <div class="col-md-1 engineer-gap"></div>
+    <div class="col-md-2 col-engineer">
+        <div class="row row-header">
+            <h3>Role</h3>
+        </div>
+        <div class="row-content-engineer">
+
+            <!-- Role will render here -->
+            <p><i class="fas fa-headphones"></i>{{ role }}</p>
+        </div>
+    </div>
+    <div class="col-md-2 col-engineer">
+        <div class="row row-header">
+            <h3>ID</h3>
+        </div>
+        <div class="row-content-engineer">
+
+            <!-- ID will render here -->
+            <p>{{ id }}</p>
+        </div>
+    </div>
+    <div class="col-md-2 col-engineer">
+        <div class="row row-header">
+            <h3>E-Mail</h3>
+        </div>
+        <div class="row-content-engineer">
+
+            <!-- Email will render here -->
+            <p><a class="engineer-email" href="mailto:{{ email }}">{{ email }}</a></p>
+        </div>
+    </div>
+    <div class="col-md-2 col-engineer">
+        <div class="row row-header">
+            <h3>GitHub</h3>
+        </div>
+        <div class="row-content-engineer">
+
+            <!-- Github will render here -->
+            <p><a href="https://github.com/{{ github }}" target="_blank" rel="noopener noreferrer">{{ github }}</a></p>
+        </div>
     </div>
 </div>

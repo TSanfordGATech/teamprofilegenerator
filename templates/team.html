@@ -6,49 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Profile Generator</title>
+    <!-- Link in my style sheet for css -->
+    <link rel="stylesheet" href="../output/stylesheet.css">
     <!-- Link in bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
-    <style>
-        /* Using styling for this from my responsive portfolio */
-        body {
-            background: url(https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/coding-vs-programming-2.jpg) center;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-            margin: 0%;
-            height: 100vh;
-        }
-        /* Top bar */
-        #nav {
-            text-align: center;
-            background-color: #283747;
-            color: white;
-            padding: 20px;
-            font-style: bold;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        #rows {
-            background: rgba(251, 251, 251, 0.95);
-            font-size: large;
-            font-style: bold;
-        }
-    </style>
 </head>
-
-        <nav id="nav">
-        <h2 style="font-family: 'Roboto Slab', serif;">Lets Check out the team</h2>
-        <form class="form-inline">
-        </form>
-      </nav>
-   
-    <div class="container">
-        <div class="row">
-            <div class="team-area col-3 d-flex justify-content-center" id="rows">
-                {{ team }}
-            </div>
+<body>
+<header class="container-fluid">
+    <div class="row">
+        <div class="col-12 jumbotron mb-3 team-heading">
+            <h1>Our team is made up by:</h1>
         </div>
     </div>
+</header>
+<main class="container ">
+    {{ team }}
+</main>
 </body>
 
 </html>

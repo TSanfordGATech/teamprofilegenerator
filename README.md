@@ -1,12 +1,15 @@
 # 10 Object-Oriented Programming: Team Profile Generator
+## Contact information:
+Tori Sanford
+Tori.danielle.clark91@gmail.com
+Link to repo: https://github.com/TSanfordGATech?tab=repositories
 
-## Your Task
+
+## The assignment
 
 Your task is to build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Testing is key to making code maintainable, so you’ll also write a unit test for every part of your code and ensure that it passes each test.
 
 Because this application won’t be deployed, you’ll need to provide a link to a walkthrough video that demonstrates its functionality and all of the tests passing. You’ll need to submit a link to the video AND add it to the readme of your project.
-
-> **Note**: There is no starter code for this assignment.
 
 ## User Story
 
@@ -120,16 +123,18 @@ This homework is graded based on the following criteria:
 
 ### Deliverables: 15%
 
-* A sample HTML file generated using the application must be submitted.
+* A sample HTML file generated using the application must be submitted. (Success)
 
 * Your GitHub repository containing your application code.
-
+(Success)
 
 ### Walkthrough Video: 32%
 
 * A walkthrough video that demonstrates the functionality of the Team Profile Generator and passing tests must be submitted, and a link to the video should be included in your README file.
+(Half, unable to complete the unit testing)
 
 * The walkthrough video must show all four tests passing from the command line.
+(fail)
 
 * The walkthrough video must demonstrate how a user would invoke the application from the command line.
 
